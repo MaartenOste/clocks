@@ -1,0 +1,28 @@
+.binary-clock{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	transform: scaleY(-1);
+}
+
+.binary-clock .ledstrip{
+	margin: 32px;
+}
+
+.binary-clock .ledstrip .led-on{
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+
+	background-color: green;
+}
+
+.binary-clock .ledstrip .led-off{
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+	background-color: white;
+	color: black;
+}

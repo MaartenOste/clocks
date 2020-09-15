@@ -1,0 +1,46 @@
+.korteWijzer{
+	transform-origin: center left;
+	width: 75px;
+	height: 5px;
+	background-color: black;
+	position: relative;
+	left: 50%;
+	top: 50%;
+}
+
+.langeWijzer{
+	transform-origin: center left;
+	width: 100px;
+	height: 5px;
+	background-color: black;
+	position: relative;
+	left: 50%;
+	top: 50%;
+}
+.secondenWijzer{
+	transform-origin: center left;
+	width: 75px;
+	height: 3px;
+	background-color: red;
+	position: relative;
+	left: 50%;
+	top: 50%;
+}
+
+.schijf{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.centerCircle{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	left: 49.4%;
+	top: 107%;
+	z-index: 8;
+}
